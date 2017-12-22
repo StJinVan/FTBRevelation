@@ -1,0 +1,5 @@
+export JAVACMD="java"
+export MIN_RAM="6G"
+export MAX_RAM="6G"
+export PERMGEN_SIZE=""
+export JAVA_PARAMETERS="-XX:+DisableExplicitGC -XX:+UseConcMarkSweepGC -XX:+UseNUMA -XX:+CMSIncrementalPacing -XX:MaxTenuringThreshold=15 -XX:MaxGCPauseMillis=30 -XX:-UseGCOverheadLimit -XX:+UseBiasedLocking -XX:SurvivorRatio=8 -XX:TargetSurvivorRatio=90 -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -XX:+UseCompressedOops -XX:+OptimizeStringConcat -XX:+AggressiveOpts -XX:ReservedCodeCacheSize=2048m -XX:+UseCodeCacheFlushing -XX:SoftRefLRUPolicyMSPerMB=20000 -XX:ParallelGCThreads=4"
