@@ -14,7 +14,7 @@ RUN adduser -D minecraft && \
     mkdir -p /minecraft/world && \
     mkdir -p /minecraft/cfg && \
     mkdir -p /minecraft/backups &&\
-    curl -SL https://www.feed-the-beast.com/projects/ftb-revelation/files/2511988/download -o FTBRevelationServer.zip  && \
+    curl -SL https://addons-origin.cursecdn.com/files/2514/256/FTBRevelationServer_1.1.0.zip -o FTBRevelationServer.zip  && \
     unzip FTBRevelationServer.zip && \
     chmod u+x *.sh && \
     echo "eula=true" > /minecraft/eula.txt && \

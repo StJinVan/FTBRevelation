@@ -1,3 +1,3 @@
 # FTBRevelation
 
-## FTB Revelation Ver 1.0.0
+## FTB Revelation Ver 1.1.0
